@@ -1,5 +1,7 @@
+
+
 const rp = require('request-promise');
-const url = 'https://en.wikipedia.org/wiki/List_of_presidents_of_India';
+const url = 'https://myschool.ng/';
 
 // cheerio 
 var $ = require('cheerio');
@@ -7,17 +9,21 @@ if (typeof $ != "function") $ = require("cheerio").default;
 
 rp (url) 
         .then ( function(html) {
-                // success!!
-                // console.log(html)
 
-                const presidentUrls = [];
+                // // success!!
+                // // console.log(html) #institution_search_select #institution_search_select > option:nth-child(2)
 
-                const length = $('div.mw-parser-output > a > img', html).length;
 
-                for (let i = 0; i < 18; i++) {
-                        presidentUrls.push($('div.mw-parser-output > a > img', html))
+
+                const universities = [];
+
+                for (let i = 2; i < 223; i++) {
+                        universities.push($(`#institution_search_select > option:nth-child(${i})`, html)[0].attribs.value)
                 }
-                console.log( presidentUrls)
+                
+                // console.log(length)
+                console.log( universities)
+
         })
         .catch ( function(err) {
 
