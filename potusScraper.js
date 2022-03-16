@@ -28,7 +28,10 @@ rp (url)
 
 
                 // LWU MEANS LOWER CASE UNIVERISITIES
-                const LWU = universities.map(each => each.toLowerCase())
+                const LWU = universities.map(each => (
+                        each.toLowerCase().replace(/ /g,"-")
+                        )
+                )
 
                 console.log( LWU)
                 // console.log( universities.length)
