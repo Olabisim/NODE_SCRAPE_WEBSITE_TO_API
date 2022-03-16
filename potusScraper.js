@@ -25,9 +25,13 @@ rp (url)
                 for (let i = 0; i < 39; i++) {
                         universities.push($(`table tbody tr td:nth-of-type(1) > a`, html)[i].children[0].data);
                 }
-                
-                console.log( universities)
-                console.log( universities.length)
+
+
+                // LWU MEANS LOWER CASE UNIVERISITIES
+                const LWU = universities.map(each => each.toLowerCase())
+
+                console.log( LWU)
+                // console.log( universities.length)
 
         })
         .catch ( function(err) {
