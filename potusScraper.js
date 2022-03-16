@@ -29,7 +29,13 @@ rp (url)
 
                 // LWU MEANS LOWER CASE UNIVERISITIES
                 const LWU = universities.map(each => (
-                        each.toLowerCase().replace(/ /g,"-")
+                        each
+                        .toLowerCase()
+                        .replace(/ /g,"-")
+                        .replaceAll(',', '')
+                        .replaceAll('.', '')
+                        .replaceAll('ekiti-state-university-(formerly-university-of-ado-ekiti)', 'ekiti-state-university')
+                        .replaceAll('olusegun-agagu-university-of--science-and-technology', 'olusegun-agagu-university-of-science-and-technology-formerly-ondo-state-university-of-science-and-te')
                         )
                 )
 
