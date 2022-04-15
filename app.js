@@ -92,7 +92,9 @@ const universities =
   'crescent-university'
 ]
 
+
 let universities_courses = []
+let object_university;
 // for pixking all courses 
 
 for (let j = 0; j < universities.length; j++) {
@@ -113,7 +115,12 @@ for (let j = 0; j < universities.length; j++) {
                                 
                         }
 
-                        universities_courses.push(courses)
+                        object_university = {
+                                university: universities[j],
+                                data: courses
+                        }
+
+                        universities_courses.push(object_university)
 
                         console.log(universities_courses)
                         // return Promise.all(
