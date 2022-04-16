@@ -55,46 +55,46 @@ const universities = [
   "ladoke-akintola-university-of-technology",
   "federal-university-of-technology-akure",
   "afe-babalola-university",
-  //   'babcock-university',
-  //   'mountain-top-university',
-  //   'pan-atlantic-university',
-  //   'lagos-state-university',
-  //   'obafemi-awolowo-university',
-  //   'federal-university-of-agriculture-abeokuta',
-  //   'chrisland-university',
-  //   'ondo-state-university-of-medical-sciences',
-  //   'ekiti-state-university',
-  //   'elizade-university',
-  //   'bells-university-of-technology',
-  //   'the-technical-university',
-  //   'bowen-university',
-  //   'kings-university',
-  //   'university-of-lagos',
-  //   'olusegun-agagu-university-of-science-and-technology-formerly-ondo-state-university-of-science-and-te',
-  //   'osun-state-university',
-  //   'adeleke-university',
-  //   'lead-city-university',
-  //   'crawford-university',
-  //   'kola-daisi-university',
-  //   'caleb-university',
-  //   'dominion-university',
-  //   'federal-university-oye-ekiti',
-  //   'mcpherson-university',
-  //   'tai-solarin-university-of-education',
-  //   'augustine-university',
-  //   'oduduwa-university',
-  //   'adekunle-ajasin-university',
-  //   'dominican-university-ibadan',
-  //   'achievers-university',
-  //   'hallmark-university',
-  //   'crescent-university'
+    'babcock-university',
+    'mountain-top-university',
+    'pan-atlantic-university',
+    'lagos-state-university',
+    'obafemi-awolowo-university',
+    'federal-university-of-agriculture-abeokuta',
+    'chrisland-university',
+    'ondo-state-university-of-medical-sciences',
+    'ekiti-state-university',
+    'elizade-university',
+    'bells-university-of-technology',
+    'the-technical-university',
+    'bowen-university',
+    'kings-university',
+    'university-of-lagos',
+    'olusegun-agagu-university-of-science-and-technology-formerly-ondo-state-university-of-science-and-te',
+    'osun-state-university',
+    'adeleke-university',
+    'lead-city-university',
+    'crawford-university',
+    'kola-daisi-university',
+    'caleb-university',
+    'dominion-university',
+    'federal-university-oye-ekiti',
+    'mcpherson-university',
+    'tai-solarin-university-of-education',
+    'augustine-university',
+    'oduduwa-university',
+    'adekunle-ajasin-university',
+    'dominican-university-ibadan',
+    'achievers-university',
+    'hallmark-university',
+    'crescent-university'
 ];
 
 let universities_courses = [];
 let object_university;
 // for pixking all courses
 
-for (let j = 0; j < 3; j++) {
+for (let j = 0; j < 39; j++) {
   rp(`${url}${universities[j]}`)
     .then((html) => {
       const courses = [];
@@ -104,7 +104,7 @@ for (let j = 0; j < 3; j++) {
         html
       ).length;
 
-      for (let i = 1; i <= 2; i++) {
+      for (let i = 1; i <= course_length; i++) {
         course = $(
           `#page-content-section > ul.vert-menu-list > li:nth-of-type(${i}) > a`,
           html
@@ -135,4 +135,4 @@ for (let j = 0; j < 3; j++) {
 
 setTimeout(() => {
   console.log(universities_courses);
-}, 3000);
+}, 30000);
