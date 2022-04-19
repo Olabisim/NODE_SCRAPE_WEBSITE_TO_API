@@ -51,7 +51,10 @@ const universities = [
 
 let universities_courses = [];
 let object_university;
+let unique_id = 0;
 // for pixking all courses
+
+console.log(universities.length)
 
 for (let j = 0; j < 36; j++) {
   rp(`${url}${universities[j]}`)
@@ -73,9 +76,12 @@ for (let j = 0; j < 36; j++) {
       }
 
       object_university = {
+        unique_id,
         university: universities[j],
         data: courses,
       };
+
+      unique_id++;
 
       universities_courses.push(object_university);
     })
