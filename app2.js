@@ -70,8 +70,8 @@ for (let j = 0; j < 36; j++) {
         course = $(
           `#page-content-section > ul.vert-menu-list > li:nth-of-type(${i}) > a`,
           html
-        )[0].children[0].data;
-
+        )[0].children[0].data.replaceAll(/\n/g, '');
+        
         courses.push(course);
       }
 
