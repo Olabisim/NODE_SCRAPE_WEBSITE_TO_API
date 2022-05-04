@@ -8,7 +8,7 @@ const fs = require("fs");
 
 
 app.get('/', (req, res) => {
-        res.send(JSON.parse(fs.readFileSync(`${__dirname}/data/fetched.json`, "utf-8")))
+        res.send(JSON.parse(fs.readFileSync(`${__dirname}/data/fetched2.json`, "utf-8")))
 })
 
 
