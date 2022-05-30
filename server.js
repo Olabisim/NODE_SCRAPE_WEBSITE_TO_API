@@ -12,8 +12,8 @@ app.get('/', (req, res) => {
 })
 
 
-app.get('/data', (req, res) => {
-        res.send(JSON.parse(fs.readFileSync(`${__dirname}/data/fetched2.json`, "utf-8")))
+app.get('/full', (req, res) => {
+        res.send(JSON.parse(fs.readFileSync(`${__dirname}/data/fetched3.json`, "utf-8")))
 })
 
 app.listen(port, () => {
