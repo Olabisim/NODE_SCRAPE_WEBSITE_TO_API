@@ -1554,7 +1554,7 @@
                             {"Zoology": ["English", "Biology", "any two (2) of Physics, Chemistry and Mathematics"]},
                             {"Computer Science with Mathematics": ["English", "Mathematics", "Physics","any one (1) of Chemistry, Economics and Biology"]}
                           ]
-                        },
+                        }
                 ]
           
         },
@@ -1849,8 +1849,8 @@
                             {"Zoology": ["English", "Biology", "any two (2) of Physics, Chemistry and Mathematics"]},
                             {"Environmental Health Science": ["English", "Chemistry", "Biology", "Physics or Mathematics"]},
                             {"Communication And Language Arts Education": ["english", "Any three (3) of Yoruba, Literature in English, Christian Religious studies, History, Economics and Islamic Studies"]}
-                          ]
+                                ]
                         }
                 ]
         }
-      ]
+]
