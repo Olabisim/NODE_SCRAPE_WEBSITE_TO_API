@@ -106,6 +106,12 @@ app.get('/lagos/pan-atlantic-university', (req, res) => {
         res.send(wholeUniversities[1].LAGOS[3])
 
 })
+// **************************************************************
+app.get('/lagos/univeristy-of-lagos', (req, res) => {
+
+        res.send(wholeUniversities[1].LAGOS[4])
+
+})
 
 
 
