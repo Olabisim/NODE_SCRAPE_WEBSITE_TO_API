@@ -112,6 +112,18 @@ app.get('/lagos/univeristy-of-lagos', (req, res) => {
         res.send(wholeUniversities[1].LAGOS[4])
 
 })
+// **************************************************************
+app.get('/lagos/james-hope-university', (req, res) => {
+
+        res.send(wholeUniversities[1].LAGOS[5])
+
+})
+// **************************************************************
+app.get('/lagos/national-open-univeristy-of-nigeria', (req, res) => {
+
+        res.send(wholeUniversities[1].LAGOS[6])
+
+})
 
 
 

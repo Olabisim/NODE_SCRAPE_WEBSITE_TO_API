@@ -436,7 +436,7 @@
                           ]
                         },
                         {
-                          "unique_id": 24,
+                          "unique_id": 2124,
                           "university": "university-of-lagos",
                           "data": [
                             {"Accountancy / Accounting"  : ["English", "Mathematics", "Economics", "any other social science subject"]},
@@ -513,6 +513,50 @@
                             {"Peace Studies": ["English", "Government", "any other two (2) Arts or Social Science subjects"]},
                             {"Aeronautic and Astronautic Engineering": ["English", "Mathematics", "Physics","Chemistry"]},
                             {"Fine and Applied Arts": ["English", "Mathematics", "Fine Arts/Physics","Chemistry"]}
+                          ]
+                        },{
+                          "unique_id": 2005,
+                          "university": "james-hope-university",
+                          "data": [
+                            {"Accounting"  : ["English", "Mathematics", "Economics", "any other social science subject"]},
+                            {"Actuarial Science": ["English", "Mathematics", "Economics", "one (1) other subject"]},
+                            {"Banking and Finance": ["English", "Mathematics", "One Social Science Subject", "any other subject"]},
+                            {"Economics": ["English", "Economics", "Mathematics", "any of Government, History, Geography, Literature in English, French and Christian Religious Studies/Islamic Studies."]},
+                            {"Entrepreneurship": ["English", "Economics", "Physics","one other Social Science or Commercial subject"]},
+                            {"Marketing": ["English", "Mathematics", "Economics", "any other Social Science subject"]}
+                          ]
+                        },{
+                          "unique_id": 1125,
+                          "university": "national-open-univeristy-of-nigeria",
+                          "data": [
+                            {"Agricultural Science and Education": ["English", "Chemistry", "Biology/Agriculture", "Physics or Mathematics"]},
+                            {"Business Education": ["English", "Mathematics", "Economics", "plus one (1) of Literature in English, History, Government, Geography, Chemistry and Physics."]},
+                            {"Communications Technology": ["English", "Mathematics", "Physics", "one of Biology, Chemistry, Agric Science, Economics and Geography"]},
+                            {"Computer Science": ["English", "Mathematics", "Physics", "one of Biology, Chemistry, Agric Science, Economics and Geography"]},
+                            {"Conflict And Peace Resolution": ["English", "Any three (3) Arts or Social Science subjects"]},
+                            {"Criminology And Security Studies": ["English", "Economics", "Mathematics", "any of Government, History, Geography, Literature in English, French and Christian Religious Studies/Islamic Studies."]},
+                            {"Early Childhood Education": ["English", "Any three (3) subjects"]},
+                            {"Education and Biology":  ["English", "Biology", "Mathematics", "Physics or Chemistry"]},
+                            {"Education and Chemistry":  ["English", "Chemistry", "Mathematics", "Physics or Biology"]},
+                            {"Education and English Language": ["English", "Literature in English", "One Arts", "any other subjects"]},
+                            {"Education and French": ["English", "French", "two (2) other Arts subjects"]},
+                            {"Education and Mathematics": ["English", "Mathematics", "two (2) of the following Science subjects: Physics, Chemistry and Biology."]},
+                            {"Education and Physics": ["English", "Physics", "Mathematics or Chemistry", "one (1) other subject"]},
+                            {"English Language": ["English", "Literature in English", "one other Arts subject", "another Arts or Social Science subject"]},
+                            {"French and International Relations": ["English", "French", "any other two (2) subjects from Arts and social sciences"]},
+                            {"Islamic Studies": ["English", "Islamic Studies", "two (2) other Arts subjects"]},
+                            {"Law": ["English", "Any three Arts or Social Science subjects"]},
+                            {"Mass Communication": ["English", "Any three Arts or Social Science subjects"]},
+                            {"Mathematics": ["English", "Mathematics", "any two (2) of Physics, Chemistry and Economics or Geography"]},
+                            {"Nursing / Nursing Science": ["English", "Biology", "Physics","Chemistry"]},
+                            {"Pharmacology": ["English", "Biology", "Physics","Chemistry"]},
+                            {"Primary Education Studies": ["English", "Any three (3) subjects."]},
+                            {"Public Administration": ["English", "Mathematics", "Economics", "any other Social Science subject"]},
+                            {"Sociology": ["English", "Three (3) Social Science or Arts subjects."]},
+                            {"Teacher Education Science": ["English", "Mathematics", "any two other Science Subjects"]},
+                            {"Tourism Studies": ["English", "Literature in English", "One Arts", "any other subjects"]},
+                            {"Cooperative Management": ["English", "Mathematics", "Economics", "one other subject"]},
+                            {"Public Health Science": ["English", "Biology", "Physics","Chemistry"]}
                           ]
                         }
 
